@@ -1,11 +1,22 @@
 import React from 'react';
-import './App.scss';
-import  Home  from './Screens/Home';
+import './App.css'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import HomePage from './Components/HomePage'
+
 
 function App() {
   return (
-    <div className="">
-		<Home />
+    <div className="App">
+       <Router>
+        <Switch>
+                <Route path="/" component={HomePage} exact />
+                <Route path="/home" component={HomePage} />
+            </Switch>
+            </Router>
     </div>
   );
 }

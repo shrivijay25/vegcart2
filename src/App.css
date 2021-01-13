@@ -1,0 +1,123 @@
+body{
+  background: #fcfcfc !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.c_badge{
+  background-color: #000a15;
+    padding: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 100%;
+    margin-left: -5px;
+}
+
+.c_accordion{
+  color: #007bff;
+  text-align: left;
+  background: #fff!important;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+.image_zoom{
+  padding: 10px;
+  height: 181px;
+  width: 181px !important;
+  cursor: -webkit-zoom-in;
+  margin: auto auto;
+  transition: 500ms;
+}
+
+.cart_text{
+  width:60px;
+  text-align: center;
+}
+
+.add_cart_btn{
+  background: #007bff !important;
+  padding: 5px;
+  margin: 5px;
+  margin-top: 17px;
+  border-radius: 10px !important;
+  transition: box-shadow 500ms;
+}
+
+.added_cart_btn{
+  background: #fff !important;
+  color:#007bff !important;
+  font-weight:bold !important;
+  padding: 5px;
+  margin: 5px;
+  margin-top: 17px;
+  border-radius: 10px !important;
+  transition: box-shadow 500ms;
+}
+
+
+.custom_card:hover {
+  box-shadow: 5px 10px 18px #888888;
+  transition: box-shadow 500ms;
+}
+
+.custom_card {
+  transition: box-shadow 500ms;
+  border:1px solid #e4e4e4 !important;
+  margin:15px 15px;
+  overflow:hidden;
+  width: 265px !important;
+  border-radius: 15px !important;
+} 
+
+.custom_card:hover > .image_zoom{
+  transform: scale(1.25);
+  transition: 500ms;
+}
+
+.sign_btn{
+  background: #fff;
+}
+
+.popup_image{
+  width:400px;
+  height:400px;
+}
+
+.filter_btn{
+  margin-top: 32px;
+  margin-left: 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.cartImg{
+  width:50px;
+  height:50px;
+}
+
+.alignLeft{
+  text-align: left;
+  margin-top: 80px;
+}
+
+.elementCenter{
+
+}
+
+.profileImg {
+  height: 250px;
+  width: 250px;
+  margin-top: 100px;
+}
