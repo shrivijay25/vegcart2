@@ -26,7 +26,7 @@
     "sass": "^1.26.9"
   },
   
-  "homepage":"https://shrivijay25.github.io/vegcart2/", 
+  "homepage":".", 
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
